@@ -1,0 +1,6 @@
+This web ui automation test is using katalon studio framework. To run this automation test via CLI, you should have katalon studio first on your PC.
+
+
+To run this automate via CLI please run this code:
+
+katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\Sehati - Bedha\Katalon Studio\Qlue Automation Test Phase 2\Qlue Automation Test Phase 2.prj" -statusDelay=60 -retry=0 -testSuitePath="Test Suites/TS 1" -executionProfile="default" -browserType="Chrome (headless)"
